@@ -1,0 +1,30 @@
+    /* Basic styling for friend and girlfriend blocks */
+    .friend-item {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+    .friend-item img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    .friend-item span {
+      display: block;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+    /* Container to wrap friend and gf details in a row */
+    .friend-pair {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .friend-pair .friend-item,
+    .friend-pair .gf-item {
+      margin: 0 20px;
+    }
+  

@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 6px;
+}
+nav {
+  border: 1px solid #999;
+  border-top:1px solid #999;
+  border-right: hidden;
+  border-left: hidden;
+ padding: 1px;
+ 
+}
+#one{
+
+  color: black;
+ 
+}
+a {
+  
+  text-decoration: underline;
+  text-decoration-color: blue ; /* yahaan red ko apne desired color se replace karen */
+  text-decoration-style:dashed;
+  text-underline-offset: 5px;
+}
+/* Navigation container ko flex banayein */
+nav {
+  display: flex;
+  align-items: center; /* Vertically center align */
+  justify-content: flex-start; /* Left se start ho */
+  background-color: #ccc; /* Background color */
+  padding: 0px; /* Container padding */
+}
+
+/* Nav links styling */
+nav a {
+  display: flex;
+  align-items:center;
+  margin-right: 10px; /* Items ke beech spacing */
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+/* Icon image ki dimensions */
+nav a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 2px; /* Icon aur text ke beech gap */
+}
